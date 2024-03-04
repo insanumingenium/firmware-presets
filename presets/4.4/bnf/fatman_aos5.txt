@@ -1,0 +1,7 @@
+#$ TITLE: Fatman AOS5 Preset
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: BNF
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: fatman aos5
+#$ AUTHOR: fatman
+#$ DESCRIPTION: Preset profile for Fatman's AOS5 build

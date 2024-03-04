@@ -1,0 +1,7 @@
+#$ TITLE: Fatman Rates Preset
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: RATES
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: fatman rates
+#$ AUTHOR: fatman
+#$ DESCRIPTION: Preset profile for Fatman's Rates

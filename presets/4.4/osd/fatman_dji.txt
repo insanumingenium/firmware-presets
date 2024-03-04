@@ -1,0 +1,7 @@
+#$ TITLE: Fatman DJI OSD Preset
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: fatman dji
+#$ AUTHOR: fatman
+#$ DESCRIPTION: Preset profile for Fatman's DJI OSD

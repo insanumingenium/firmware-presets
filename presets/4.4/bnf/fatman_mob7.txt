@@ -1,0 +1,7 @@
+#$ TITLE: Fatman Mob7 Preset
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: BNF
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: fatman mob7
+#$ AUTHOR: fatman
+#$ DESCRIPTION: Preset profile for Fatman's Mob7 build

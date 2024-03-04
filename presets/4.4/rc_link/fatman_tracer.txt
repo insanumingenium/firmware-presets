@@ -1,0 +1,7 @@
+#$ TITLE: Fatman Tracer RC-Link Preset
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: RC Link
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: fatman rc-link tracer
+#$ AUTHOR: fatman
+#$ DESCRIPTION: Preset profile for Fatman's tracer rc link
