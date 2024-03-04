@@ -1,6 +1,6 @@
 #$ TITLE: Fatman Crossfire RC-Link Preset
 #$ FIRMWARE_VERSION: 4.4
-#$ CATEGORY: RC Link
+#$ CATEGORY: RC_LINK
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: fatman rc-link crossfire
 #$ AUTHOR: fatman

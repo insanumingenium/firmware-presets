@@ -140,6 +140,7 @@
       "4.5"
     ],
     "category": [
+      "BNF",
       "FILTERS",
       "LEDS",
       "MODES",
@@ -164,6 +165,7 @@
       "Davide FPV (Davide Angeletti)",
       "Directory",
       "Evan Turner (Headsup)",
+      "fatman",
       "Feisar",
       "Foxeer Harvey",
       "FPVian",
@@ -322,6 +324,19 @@
       "expert",
       "express",
       "Extreme",
+      "fatman analog",
+      "fatman aos35",
+      "fatman aos5",
+      "fatman dji",
+      "fatman mob6",
+      "fatman mob7",
+      "fatman rates",
+      "fatman rc-link crossfire",
+      "fatman rc-link elrs",
+      "fatman rc-link elrs-spi",
+      "fatman rc-link tracer",
+      "fatman source5",
+      "fatman walksnail",
       "feisar",
       "filter",
       "filtering",
@@ -3932,6 +3947,81 @@
       "priority": 1000000
     },
     {
+      "fullPath": "presets/4.4/bnf/fatman_aos35.txt",
+      "hash": "cac9c3de9a108899296f5a2086b1457354a0965ab94da293d6fdd3b779c9e9c2",
+      "title": "Fatman AOS35 Preset",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "keywords": [
+        "fatman aos35"
+      ],
+      "author": "fatman",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/bnf/fatman_aos5.txt",
+      "hash": "17b9f27c6a77737ba386433c7236e8ee1c95071d6ca90573f5261e8b24056bab",
+      "title": "Fatman AOS5 Preset",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "keywords": [
+        "fatman aos5"
+      ],
+      "author": "fatman",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/bnf/fatman_mob6.txt",
+      "hash": "e4ba1df930eab4356b32f5bbd9e1c18b7b7647e1be9a113e1cd50427da03d661",
+      "title": "Fatman Mob6 Preset",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "keywords": [
+        "fatman mob6"
+      ],
+      "author": "fatman",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/bnf/fatman_mob7.txt",
+      "hash": "9e13c5e11621ed5eae5437a9825c374f96022c16c80c0f309941f6ded678b118",
+      "title": "Fatman Mob7 Preset",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "keywords": [
+        "fatman mob7"
+      ],
+      "author": "fatman",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/bnf/fatman_source5.txt",
+      "hash": "e1390d909742fd92121fe2ff14365fa0720550998dc4c918fb7f3edf615120cb",
+      "title": "Fatman Source5 Preset",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "keywords": [
+        "fatman source5"
+      ],
+      "author": "fatman",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.4/leds/quaddiction_tinytrainer.txt",
       "hash": "3446d7aa09e8a7febe459c46160efb5aadf64a44ddf022f79156b76919edef8a",
       "title": "Quaddiction TinyTrainer LED settings",
@@ -3986,6 +4076,51 @@
         "OSD"
       ],
       "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/osd/fatman_analog.txt",
+      "hash": "7d0920e01fbcaedfa13a4b60ba91f5fc77ef085db42839ca5c1439f9fa57b2d6",
+      "title": "Fatman Analog OSD Preset",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "fatman analog"
+      ],
+      "author": "fatman",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/osd/fatman_dji.txt",
+      "hash": "649805ba4bd6737eb453bc9e513038882e966acb84bacd05c7469d274c6bd31c",
+      "title": "Fatman DJI OSD Preset",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "fatman dji"
+      ],
+      "author": "fatman",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/osd/fatman_walksnail.txt",
+      "hash": "5f7ae2f552d25fb66cf6b0d18d624c62e044f6f2eead311d7808d707eeb99de7",
+      "title": "Fatman Walksnail OSD Preset",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "fatman walksnail"
+      ],
+      "author": "fatman",
       "priority": 0
     },
     {
@@ -4115,6 +4250,21 @@
       "priority": 10000
     },
     {
+      "fullPath": "presets/4.4/rates/fatman_rates.txt",
+      "hash": "cc4263371b1d9ca7bd259d10aa64cfe927eae1bfa36ff2d7a688ce11a71a7f70",
+      "title": "Fatman Rates Preset",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "RATES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "fatman rates"
+      ],
+      "author": "fatman",
+      "priority": 10000
+    },
+    {
       "fullPath": "presets/4.4/rc_link/FrSky R9 (6.67ms).txt",
       "hash": "ad1905c4d84bf8edd56ffe71a4a1df55652534dc9458c29b048b8c98d548b7b5",
       "title": "FrSky R9 (6.67 ms)",
@@ -4137,6 +4287,66 @@
       ],
       "author": "Jakub Espandr (FlyCamCzech)",
       "force_options_review": true,
+      "priority": 10000000000
+    },
+    {
+      "fullPath": "presets/4.4/rc_link/fatman_crossfire.txt",
+      "hash": "befdb9f4c944305fe23671243aa45d2b14333a116ae998887f6ac3fb036ccc0a",
+      "title": "Fatman Crossfire RC-Link Preset",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "RC_LINK",
+      "status": "COMMUNITY",
+      "keywords": [
+        "fatman rc-link crossfire"
+      ],
+      "author": "fatman",
+      "priority": 10000000000
+    },
+    {
+      "fullPath": "presets/4.4/rc_link/fatman_elrs.txt",
+      "hash": "e1d02216e110fb693991719c1665ea5e60a303b29e21392752017d7fdc60f64d",
+      "title": "Fatman ELRS RC-Link Preset",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "RC_LINK",
+      "status": "COMMUNITY",
+      "keywords": [
+        "fatman rc-link elrs"
+      ],
+      "author": "fatman",
+      "priority": 10000000000
+    },
+    {
+      "fullPath": "presets/4.4/rc_link/fatman_elrs_spi.txt",
+      "hash": "7f4b48e07a27e440b1c747ccf625513e021664119e2d9d71782afed2b8617702",
+      "title": "Fatman ELRS SPI RC-Link Preset",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "RC_LINK",
+      "status": "COMMUNITY",
+      "keywords": [
+        "fatman rc-link elrs-spi"
+      ],
+      "author": "fatman",
+      "priority": 10000000000
+    },
+    {
+      "fullPath": "presets/4.4/rc_link/fatman_tracer.txt",
+      "hash": "097b5c205ad05da0edac3188d102868b0f2b0da57331c566725157ae528868d7",
+      "title": "Fatman Tracer RC-Link Preset",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "RC_LINK",
+      "status": "COMMUNITY",
+      "keywords": [
+        "fatman rc-link tracer"
+      ],
+      "author": "fatman",
       "priority": 10000000000
     },
     {
