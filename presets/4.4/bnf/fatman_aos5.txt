@@ -5,3 +5,14 @@
 #$ KEYWORDS: fatman aos5
 #$ AUTHOR: fatman
 #$ DESCRIPTION: Preset profile for Fatman's AOS5 build
+
+$# INCLUDE: presets/4.4/other/fatman_general.txt
+$# INCLUDE: presets/4.4/other/fatman_aux_modes.txt
+$# INCLUDE: presets/4.4/other/fatman_failsafe.txt
+$# INCLUDE: presets/4.4/other/fatman_beeper_beacon.txt
+$# INCLUDE: presets/4.4/leds/fatman_leds.txt
+$# INCLUDE: presets/4.4/rates/fatman_rates.txt
+
+$# INCLUDE: presets/4.4/rc_link/fatman_crossfire.txt
+
+$# INCLUDE: presets/4.4/osd/fatman_dji.txt

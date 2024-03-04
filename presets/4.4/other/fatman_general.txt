@@ -1,0 +1,28 @@
+#$ TITLE: Fatman Genertal Preset
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: RC_LINK
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: fatman general
+#$ AUTHOR: fatman
+#$ DESCRIPTION: Preset profile for Fatman's General Settings
+
+feature -INFLIGHT_ACC_CAL
+feature -MOTOR_STOP
+feature -SERVO_TILT
+feature -SOFTSERIAL
+feature -GPS
+feature -RANGEFINDER
+feature -3D
+feature -RSSI_ADC
+feature -DISPLAY
+feature -CHANNEL_FORWARDING
+feature -TRANSPONDER
+feature -ESC_SENSOR
+feature AIRMODE
+feature ANTI_GRAVITY
+
+set pilot_name = Fatman
+
+set runaway_takeoff_prevention = ON
+set runaway_takeoff_deactivate_delay = 500
+set runaway_takeoff_deactivate_throttle_percent = 20

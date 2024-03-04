@@ -1,0 +1,43 @@
+#$ TITLE: Fatman Beeper Beacon Preset
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: fatman beeper beacon
+#$ AUTHOR: fatman
+#$ DESCRIPTION: Preset profile for Fatman's Beeper and Beacon Settings
+
+
+set beeper_inversion = ON
+set beeper_od = OFF
+set beeper_frequency = 0
+set beeper_dshot_beacon_tone = 1
+
+# beeper
+beeper -GYRO_CALIBRATED
+beeper -RX_LOST
+beeper -RX_LOST_LANDING
+beeper -DISARMING
+beeper ARMING
+beeper -ARMING_GPS_FIX
+beeper ARMING_GPS_NO_FIX
+beeper BAT_CRIT_LOW
+beeper BAT_LOW
+beeper -GPS_STATUS
+beeper RX_SET
+beeper -ACC_CALIBRATION
+beeper -ACC_CALIBRATION_FAIL
+beeper READY_BEEP
+beeper MULTI_BEEPS
+beeper -DISARM_REPEAT
+beeper -ARMED
+beeper -SYSTEM_INIT
+beeper -ON_USB
+beeper -BLACKBOX_ERASE
+beeper CRASH_FLIP
+beeper -CAM_CONNECTION_OPEN
+beeper -CAM_CONNECTION_CLOSE
+beeper -RC_SMOOTHING_INIT_FAIL
+
+# beacon
+beacon -RX_LOST
+beacon -RX_SET

@@ -5,3 +5,42 @@
 #$ KEYWORDS: fatman rc-link tracer
 #$ AUTHOR: fatman
 #$ DESCRIPTION: Preset profile for Fatman's tracer rc link
+
+feature -RX_SPI
+feature -RX_PARALLEL_PWM
+feature -RX_MSP
+feature -RX_PPM
+feature RX_SERIAL
+feature TELEMETRY
+
+set serialrx_provider = CRSF
+set serialrx_inverted = OFF
+set sbus_baud_fast = OFF
+set crsf_use_negotiated_baud = OFF
+
+set serialrx_halfduplex = OFF
+
+set tlm_inverted = OFF
+set tlm_halfduplex = ON
+
+set telemetry_disabled_voltage = OFF
+set telemetry_disabled_current = OFF
+set telemetry_disabled_fuel = OFF
+set telemetry_disabled_mode = OFF
+set telemetry_disabled_acc_x = OFF
+set telemetry_disabled_acc_y = OFF
+set telemetry_disabled_acc_z = OFF
+set telemetry_disabled_pitch = OFF
+set telemetry_disabled_roll = OFF
+set telemetry_disabled_heading = OFF
+set telemetry_disabled_altitude = OFF
+set telemetry_disabled_vario = OFF
+set telemetry_disabled_lat_long = OFF
+set telemetry_disabled_ground_speed = OFF
+set telemetry_disabled_distance = OFF
+set telemetry_disabled_esc_current = ON
+set telemetry_disabled_esc_voltage = ON
+set telemetry_disabled_esc_rpm = ON
+set telemetry_disabled_esc_temperature = ON
+set telemetry_disabled_temperature = OFF
+set telemetry_disabled_cap_used = ON

@@ -327,7 +327,12 @@
       "fatman analog",
       "fatman aos35",
       "fatman aos5",
+      "fatman aux modes",
+      "fatman beeper beacon",
       "fatman dji",
+      "fatman failsafe",
+      "fatman general",
+      "fatman led",
       "fatman mob6",
       "fatman mob7",
       "fatman rates",
@@ -3948,7 +3953,7 @@
     },
     {
       "fullPath": "presets/4.4/bnf/fatman_aos35.txt",
-      "hash": "cac9c3de9a108899296f5a2086b1457354a0965ab94da293d6fdd3b779c9e9c2",
+      "hash": "53925c215938106b108d7861321a8c34152a83059f8e9d7de07b58c9ff1c63d1",
       "title": "Fatman AOS35 Preset",
       "firmware_version": [
         "4.4"
@@ -3963,7 +3968,7 @@
     },
     {
       "fullPath": "presets/4.4/bnf/fatman_aos5.txt",
-      "hash": "17b9f27c6a77737ba386433c7236e8ee1c95071d6ca90573f5261e8b24056bab",
+      "hash": "075e7c5affd67521ccb8164ffa26805a66785db4719693ca9cfbe7ea57a6550d",
       "title": "Fatman AOS5 Preset",
       "firmware_version": [
         "4.4"
@@ -3978,7 +3983,7 @@
     },
     {
       "fullPath": "presets/4.4/bnf/fatman_mob6.txt",
-      "hash": "e4ba1df930eab4356b32f5bbd9e1c18b7b7647e1be9a113e1cd50427da03d661",
+      "hash": "30c5fbff913bef2e82b21f03670a941156adf9ffd7828fe0404d11bb7d308eb5",
       "title": "Fatman Mob6 Preset",
       "firmware_version": [
         "4.4"
@@ -3993,7 +3998,7 @@
     },
     {
       "fullPath": "presets/4.4/bnf/fatman_mob7.txt",
-      "hash": "9e13c5e11621ed5eae5437a9825c374f96022c16c80c0f309941f6ded678b118",
+      "hash": "05962fd60844fb5cdf2c931cf12ce4c37b800d9be44b2399715d6fe4ee2c036a",
       "title": "Fatman Mob7 Preset",
       "firmware_version": [
         "4.4"
@@ -4008,7 +4013,7 @@
     },
     {
       "fullPath": "presets/4.4/bnf/fatman_source5.txt",
-      "hash": "e1390d909742fd92121fe2ff14365fa0720550998dc4c918fb7f3edf615120cb",
+      "hash": "aea49878a33839596964d28c10929d516543894c2a06032a505d31edadb4ef5e",
       "title": "Fatman Source5 Preset",
       "firmware_version": [
         "4.4"
@@ -4017,6 +4022,21 @@
       "status": "COMMUNITY",
       "keywords": [
         "fatman source5"
+      ],
+      "author": "fatman",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/leds/fatman_leds.txt",
+      "hash": "b5aaecb18bc99c180f80c60009b810e6f051f571058ff0f3877eef5c436a10de",
+      "title": "Fatman LED Preset",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "LEDS",
+      "status": "COMMUNITY",
+      "keywords": [
+        "fatman led"
       ],
       "author": "fatman",
       "priority": 0
@@ -4080,7 +4100,7 @@
     },
     {
       "fullPath": "presets/4.4/osd/fatman_analog.txt",
-      "hash": "7d0920e01fbcaedfa13a4b60ba91f5fc77ef085db42839ca5c1439f9fa57b2d6",
+      "hash": "089f3e01db2adf49aeb4b9749c4bac91849b1d282227d883d0013d8ba2b75d54",
       "title": "Fatman Analog OSD Preset",
       "firmware_version": [
         "4.4"
@@ -4095,7 +4115,7 @@
     },
     {
       "fullPath": "presets/4.4/osd/fatman_dji.txt",
-      "hash": "aa9ac9c5b922484c9cf7f31bcf8105c582924c61f2b81b4b443d3f4a4f4a94b8",
+      "hash": "21433ca3ca22244f83cfb8feb8877bd17be189efa3eb9e2afd7652cab1acd2f6",
       "title": "Fatman DJI OSD Preset",
       "firmware_version": [
         "4.4"
@@ -4110,7 +4130,7 @@
     },
     {
       "fullPath": "presets/4.4/osd/fatman_walksnail.txt",
-      "hash": "5f7ae2f552d25fb66cf6b0d18d624c62e044f6f2eead311d7808d707eeb99de7",
+      "hash": "9b2d3d8d5ec0b771d3366c40aca83e263bd806d1e65e493c14263fcda89bf151",
       "title": "Fatman Walksnail OSD Preset",
       "firmware_version": [
         "4.4"
@@ -4207,6 +4227,66 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.4/other/fatman_aux_modes.txt",
+      "hash": "fad8eba43035eaa0c00f69d57dcc5272f19b9d7b50145e05c0870e9c5e2a7422",
+      "title": "Fatman AUX Modes Preset",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "fatman aux modes"
+      ],
+      "author": "fatman",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/other/fatman_beeper_beacon.txt",
+      "hash": "e31e03d6bdabe0c3d949f84cedaa91a5c57595849bf64cf0f2f91380199bcb87",
+      "title": "Fatman Beeper Beacon Preset",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "fatman beeper beacon"
+      ],
+      "author": "fatman",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/other/fatman_failsafe.txt",
+      "hash": "89d21e2901b79a0cccea016857d7a5b90709902beec9dd0729f3720cd0e7fb88",
+      "title": "Fatman Failsafe Preset",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "fatman failsafe"
+      ],
+      "author": "fatman",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/other/fatman_general.txt",
+      "hash": "fcb3c4fc82f5019cb771dd2f29e978c4c80d3959736f686d449cf36fa0f24b32",
+      "title": "Fatman Genertal Preset",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "RC_LINK",
+      "status": "COMMUNITY",
+      "keywords": [
+        "fatman general"
+      ],
+      "author": "fatman",
+      "priority": 10000000000
+    },
+    {
       "fullPath": "presets/4.4/rates/DavideFPVFreeStyle.txt",
       "hash": "fd4151af99e2f2db4566a50591076c2e5082382fd3578095aee048fde1951251",
       "title": "Davide FPV Rates for Freestyle with Cinematic Option",
@@ -4251,7 +4331,7 @@
     },
     {
       "fullPath": "presets/4.4/rates/fatman_rates.txt",
-      "hash": "cc4263371b1d9ca7bd259d10aa64cfe927eae1bfa36ff2d7a688ce11a71a7f70",
+      "hash": "c478859928d545e2468fee60ae4a2d525d944fcf3847086bbea8d09cc49fe141",
       "title": "Fatman Rates Preset",
       "firmware_version": [
         "4.4"
@@ -4291,7 +4371,7 @@
     },
     {
       "fullPath": "presets/4.4/rc_link/fatman_crossfire.txt",
-      "hash": "befdb9f4c944305fe23671243aa45d2b14333a116ae998887f6ac3fb036ccc0a",
+      "hash": "d34654206f5d1a869d9b1583f9e05c43db0b7a3c87020d0f92d25bc9cdda1c47",
       "title": "Fatman Crossfire RC-Link Preset",
       "firmware_version": [
         "4.4"
@@ -4306,7 +4386,7 @@
     },
     {
       "fullPath": "presets/4.4/rc_link/fatman_elrs.txt",
-      "hash": "e1d02216e110fb693991719c1665ea5e60a303b29e21392752017d7fdc60f64d",
+      "hash": "49161228ad221871bb8de091d6f2d5da63d562d23b2e701f67c86294395ef91c",
       "title": "Fatman ELRS RC-Link Preset",
       "firmware_version": [
         "4.4"
@@ -4321,7 +4401,7 @@
     },
     {
       "fullPath": "presets/4.4/rc_link/fatman_elrs_spi.txt",
-      "hash": "7f4b48e07a27e440b1c747ccf625513e021664119e2d9d71782afed2b8617702",
+      "hash": "506c9a55caba8538f28ac2eb56f0febe9b48aabf1efd09993ae3cb1e71959e04",
       "title": "Fatman ELRS SPI RC-Link Preset",
       "firmware_version": [
         "4.4"
@@ -4336,7 +4416,7 @@
     },
     {
       "fullPath": "presets/4.4/rc_link/fatman_tracer.txt",
-      "hash": "097b5c205ad05da0edac3188d102868b0f2b0da57331c566725157ae528868d7",
+      "hash": "95b539de3216a4218d54ada6c30440e59b00b1acac13ea05c3df6aa38edb3a83",
       "title": "Fatman Tracer RC-Link Preset",
       "firmware_version": [
         "4.4"
