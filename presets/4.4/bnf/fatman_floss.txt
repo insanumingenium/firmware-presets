@@ -1,10 +1,10 @@
-#$ TITLE: Fatman AOS35 Preset
+#$ TITLE: Fatman Floss Preset
 #$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: BNF
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: fatman aos35
+#$ KEYWORDS: fatman floss
 #$ AUTHOR: fatman
-#$ DESCRIPTION: Preset profile for Fatman's AOS35 build
+#$ DESCRIPTION: Preset profile for Fatman's floss build
 
 $# INCLUDE: presets/4.4/other/fatman_general.txt
 $# INCLUDE: presets/4.4/other/fatman_aux_modes.txt
@@ -16,12 +16,13 @@ $# INCLUDE: presets/4.4/rates/fatman_rates.txt
 
 $# INCLUDE: presets/4.4/rc_link/fatman_crossfire.txt
 
-$# INCLUDE: presets/4.4/osd/fatman_walksnail.txt
+$# INCLUDE: presets/4.4/osd/fatman_analog.txt
 
 # serial
 serial 20 1 115200 57600 0 115200
 serial 0 64 115200 57600 0 115200
 serial 1 0 115200 57600 0 115200
-serial 2 16384 115200 57600 0 115200
-serial 3 131073 115200 57600 0 115200
-serial 5 2048 115200 57600 0 115200
+serial 2 0 115200 57600 0 115200
+serial 3 1 115200 57600 0 115200
+serial 4 0 115200 57600 0 115200
+serial 5 0 115200 57600 0 115200

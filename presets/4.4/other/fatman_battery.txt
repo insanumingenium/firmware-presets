@@ -1,0 +1,12 @@
+#$ TITLE: Fatman battery config Preset
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: fatman battery 1s
+#$ AUTHOR: fatman
+#$ DESCRIPTION: Preset profile for Fatman's multicell battery Settings
+
+set vbat_max_cell_voltage = 436
+set vbat_full_cell_voltage = 410
+set vbat_min_cell_voltage = 330
+set vbat_warning_cell_voltage = 350

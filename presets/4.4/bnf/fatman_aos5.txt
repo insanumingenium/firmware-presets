@@ -10,9 +10,19 @@ $# INCLUDE: presets/4.4/other/fatman_general.txt
 $# INCLUDE: presets/4.4/other/fatman_aux_modes.txt
 $# INCLUDE: presets/4.4/other/fatman_failsafe.txt
 $# INCLUDE: presets/4.4/other/fatman_beeper_beacon.txt
+$# INCLUDE: presets/4.4/other/fatman_battery.txt
 $# INCLUDE: presets/4.4/leds/fatman_leds.txt
 $# INCLUDE: presets/4.4/rates/fatman_rates.txt
 
 $# INCLUDE: presets/4.4/rc_link/fatman_crossfire.txt
 
 $# INCLUDE: presets/4.4/osd/fatman_dji.txt
+
+# serial
+serial 20 1 115200 57600 0 115200
+serial 0 131073 115200 57600 0 115200
+serial 1 0 115200 57600 0 115200
+serial 2 0 115200 57600 0 115200
+serial 3 64 115200 57600 0 115200
+serial 5 0 115200 57600 0 115200
+serial 6 0 115200 57600 0 115200
