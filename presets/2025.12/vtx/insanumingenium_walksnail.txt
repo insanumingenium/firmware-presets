@@ -6,3 +6,4 @@
 #$ AUTHOR: insanumingenium
 #$ DESCRIPTION: insanumingenium all configs for an walksnail quad
 
+#$ INCLUDE: presets/2025.12/osd/insanumingenium_walksnail_osd.txt
