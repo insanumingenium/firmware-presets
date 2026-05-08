@@ -141,6 +141,7 @@
       "OSD",
       "OTHER",
       "RATES",
+      "RC_LINK",
       "VTX"
     ],
     "author": [
@@ -154,6 +155,7 @@
       "betaflight",
       "channels",
       "dji",
+      "elrs",
       "fail",
       "failsafe",
       "feature",
@@ -167,6 +169,7 @@
       "rc",
       "safe",
       "small angle",
+      "spi",
       "vtx",
       "walksnail"
     ]
@@ -200,6 +203,18 @@
       "fullPath": "presets/2025.12/bnf/insanumingenium_HMB_RS_V2.txt",
       "hash": "19d450c39fe63f8a35f1b59f41d774632850ff5bc81ecf60a2e854510aa4a784",
       "title": "insanumingenium Hummingbird RS v2 BNF Config",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "author": "insanumingenium",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/insanumingenium_MOB7.txt",
+      "hash": "be8e097dfcf1b65732b206d423bad7688b13a70d0c3b34c63cf61463f6f267c7",
+      "title": "insanumingenium MOB7 BNF Config",
       "firmware_version": [
         "2025.12"
       ],
@@ -404,6 +419,23 @@
       ],
       "author": "insanumingenium",
       "priority": 10000
+    },
+    {
+      "fullPath": "presets/2025.12/rc_link/insanumingenium_elrs_spi.txt",
+      "hash": "d4f6daced102dfc97e8d8eedf837fd051a5b2dca1ad389aee977a17b5f117989",
+      "title": "insanumingenium ELRS SPI Config",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "RC_LINK",
+      "status": "COMMUNITY",
+      "keywords": [
+        "elrs",
+        "spi",
+        "rc"
+      ],
+      "author": "insanumingenium",
+      "priority": 10000000000
     },
     {
       "fullPath": "presets/2025.12/vtx/insanumingenium_analog.txt",
