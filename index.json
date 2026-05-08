@@ -173,6 +173,7 @@
       "Garban",
       "Grey pang",
       "IllusionFpv",
+      "insanumingenium",
       "Ivan Efimov (Limon)",
       "Jakub Espandr (FlyCamCzech)",
       "jappyjan",
@@ -245,6 +246,7 @@
       "air75",
       "akk",
       "AlexFPV",
+      "analog vtx channels",
       "aos",
       "Audio TBS",
       "aux",
@@ -1479,6 +1481,21 @@
       ],
       "author": "Betaflight",
       "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/vtx/insanumingenium_analog.txt",
+      "hash": "5909caaa7b0c0f61d036956133558682d252f54387cec062cb06fefe32831659",
+      "title": "insanumingenium Analog VTX Control",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "analog vtx channels"
+      ],
+      "author": "insanumingenium",
+      "priority": 1000000
     },
     {
       "fullPath": "presets/4.3/filters/basic_no_rpm_clean.txt",
