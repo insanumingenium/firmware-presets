@@ -174,7 +174,7 @@
   "presets": [
     {
       "fullPath": "presets/2025.12/bnf/insanumingenium_AOS5.txt",
-      "hash": "cbd1a3f9473e6a5278e0561a25fc9d52aef9124469690ccb0f7aafce5c0332ee",
+      "hash": "fe293717057731f861f339008656713ed1b98843d00eb2da9e7f6a44adfc7591",
       "title": "insanumingenium AOS5 BNF Config",
       "firmware_version": [
         "2025.12"
@@ -200,6 +200,18 @@
       "fullPath": "presets/2025.12/bnf/insanumingenium_HMB_RS_V2.txt",
       "hash": "19d450c39fe63f8a35f1b59f41d774632850ff5bc81ecf60a2e854510aa4a784",
       "title": "insanumingenium Hummingbird RS v2 BNF Config",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "author": "insanumingenium",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/insanumingenium_Source5.txt",
+      "hash": "50447edb78678a2c05bad725febbdffa6c651c031be941f08d72e688fd09bee1",
+      "title": "insanumingenium Source5 BNF Config",
       "firmware_version": [
         "2025.12"
       ],
@@ -238,7 +250,7 @@
     },
     {
       "fullPath": "presets/2025.12/osd/insanumingenium_dji_osd.txt",
-      "hash": "086502a6e5ce077f5e935078b756bf91a3a17da0d04566e8cba6d63849d1283c",
+      "hash": "07bf80ccb8af5ab3b571a7592c6836a5a68b42ea9cc84fba55bdf70290871d84",
       "title": "insanumingenium DJI OSD",
       "firmware_version": [
         "2025.12"
