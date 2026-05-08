@@ -143,13 +143,29 @@
       "insanumingenium"
     ],
     "keywords": [
-      "analog vtx channels"
+      "analog vtx channels",
+      "modex aux"
     ]
   },
   "presets": [
     {
+      "fullPath": "presets/2025.12/other/insanumingenium_modes.txt",
+      "hash": "1ebc8955a835ab4be331f0a0cc2c9ee9dc5f0e914ca9dbc9c852e0143a666ff7",
+      "title": "insanumingenium Modes Config",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "modex aux"
+      ],
+      "author": "insanumingenium",
+      "priority": 1000000
+    },
+    {
       "fullPath": "presets/2025.12/vtx/insanumingenium_analog.txt",
-      "hash": "5909caaa7b0c0f61d036956133558682d252f54387cec062cb06fefe32831659",
+      "hash": "cf5cf800e0ca62fcbb6e9c986597d97a66efb5971d85ab4ecf9f74e82ae66947",
       "title": "insanumingenium Analog VTX Control",
       "firmware_version": [
         "2025.12"
