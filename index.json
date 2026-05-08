@@ -213,7 +213,7 @@
     },
     {
       "fullPath": "presets/2025.12/bnf/insanumingenium_MOB7.txt",
-      "hash": "be8e097dfcf1b65732b206d423bad7688b13a70d0c3b34c63cf61463f6f267c7",
+      "hash": "2195560f1fce2f47dd74e1f37e181515eac8c982406320859be9fa6031ff803a",
       "title": "insanumingenium MOB7 BNF Config",
       "firmware_version": [
         "2025.12"
@@ -274,6 +274,22 @@
       "status": "COMMUNITY",
       "keywords": [
         "dji",
+        "osd"
+      ],
+      "author": "insanumingenium",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/osd/insanumingenium_walksnail_osd.txt",
+      "hash": "e4f22022e0476deb28966c4d220b4746ca8a0ea120f5eb551de4871534ac4290",
+      "title": "insanumingenium Walksnail OSD",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "walksnail",
         "osd"
       ],
       "author": "insanumingenium",
@@ -488,7 +504,7 @@
     },
     {
       "fullPath": "presets/2025.12/vtx/insanumingenium_walksnail.txt",
-      "hash": "df588c14bf4ff77f115bd2a8ba4b20f50edb57de915491aa0fe421c6f8ddd79e",
+      "hash": "86a3ad2cb60b87545285fe9008c87b46728abcd197471d9cd9f2cb34f744f3e6",
       "title": "insanumingenium Walksnail VTX Config",
       "firmware_version": [
         "2025.12"
