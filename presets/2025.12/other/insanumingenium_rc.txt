@@ -1,0 +1,15 @@
+#$ TITLE: insanumingenium Betaflight RC Config
+#$ FIRMWARE_VERSION: 2025.12
+#$ CATEGORY: OTHER
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: rc, radio
+#$ AUTHOR: insanumingenium
+#$ DESCRIPTION: insanumingenium standard RC config
+
+# rxrange
+rxrange 0 1000 2000
+rxrange 1 1000 2000
+rxrange 2 1000 2000
+rxrange 3 1000 2000
+
+map TAER1234

@@ -148,20 +148,42 @@
     ],
     "keywords": [
       "analog",
+      "angle",
       "aux",
       "beeper",
       "betaflight",
       "channels",
       "dji",
+      "fail",
+      "failsafe",
       "feature",
       "modes",
+      "name",
       "osd",
+      "pilot",
+      "pilot name",
+      "radio",
       "rates",
+      "rc",
+      "safe",
+      "small angle",
       "vtx",
       "walksnail"
     ]
   },
   "presets": [
+    {
+      "fullPath": "presets/2025.12/bnf/insanumingenium_AOS5.txt",
+      "hash": "1df2dac7a19ba3338ae39c8f3a24c74cf011aceeb3b7ad34280066166cf5d0dc",
+      "title": "insanumingenium AOS5 BNF Config",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "author": "insanumingenium",
+      "priority": 0
+    },
     {
       "fullPath": "presets/2025.12/bnf/insanumingenium_Floss.txt",
       "hash": "fd82171104a53d3362d488581dd34d02bbcf4cc31dba71126679dccb21de9015",
@@ -200,7 +222,7 @@
     },
     {
       "fullPath": "presets/2025.12/osd/insanumingenium_analog_osd.txt",
-      "hash": "3b0f853e0e951fddf86dee6f0943cc22ce57775c90428a8de7a0b22aff120046",
+      "hash": "c52f5523827884e94b2c4141dfdcdfdc34e59695b383bfde2d3f1fd783713454",
       "title": "insanumingenium Analog OSD",
       "firmware_version": [
         "2025.12"
@@ -209,6 +231,22 @@
       "status": "COMMUNITY",
       "keywords": [
         "analog",
+        "osd"
+      ],
+      "author": "insanumingenium",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/osd/insanumingenium_dji_osd.txt",
+      "hash": "bd098b8fa76bd0bf0efc825805a54ccb7fc629031862efbebb93302f59a23ce3",
+      "title": "insanumingenium DJI OSD",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "dji",
         "osd"
       ],
       "author": "insanumingenium",
@@ -230,8 +268,25 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/2025.12/other/insanumingenium_failsafe.txt",
+      "hash": "c14d7fc8bc198cd0e38e77aeb3a2d1077d7018c8a268421bbea6b96e0d425692",
+      "title": "insanumingenium Betaflight Failsafe Config",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "failsafe",
+        "fail",
+        "safe"
+      ],
+      "author": "insanumingenium",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/2025.12/other/insanumingenium_features.txt",
-      "hash": "a21bea8e73ff1d853b9b404f3edaf2b2725426dbcdc8e8fc31fff1e53114c51c",
+      "hash": "a0dd963c96587c5c6f4460362bcd5c31de270e93bcd1fc3e97a3a2f4152330ee",
       "title": "insanumingenium Betaflight Features Config",
       "firmware_version": [
         "2025.12"
@@ -247,7 +302,7 @@
     },
     {
       "fullPath": "presets/2025.12/other/insanumingenium_generic.txt",
-      "hash": "162143f0884ad23beeec69e635173d04da7bae891f2381a641850e1dcb0b8599",
+      "hash": "25ab1185c3ded6a2f3634728708694059116c27e9d1c7628d48a2bad7f1645ce",
       "title": "insanumingenium Generic Config",
       "firmware_version": [
         "2025.12"
@@ -276,7 +331,7 @@
     },
     {
       "fullPath": "presets/2025.12/other/insanumingenium_pilot_name.txt",
-      "hash": "bb954e59194d52fbafe01c1e03fcddab93b55d959c5daf460bbef05ac137cff3",
+      "hash": "54027b2094dc5b056902dbc1bb2376eb989b0dbadcd78a75461b2ac9c9a7eac7",
       "title": "insanumingenium Pilot Name Config",
       "firmware_version": [
         "2025.12"
@@ -284,14 +339,32 @@
       "category": "OTHER",
       "status": "COMMUNITY",
       "keywords": [
-        "beeper"
+        "pilot",
+        "name",
+        "pilot name"
+      ],
+      "author": "insanumingenium",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/other/insanumingenium_rc.txt",
+      "hash": "a6d7a7171d1e404587b4d1b91fc10990858b3d57285e114fcee45dfc4dfad52d",
+      "title": "insanumingenium Betaflight RC Config",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "rc",
+        "radio"
       ],
       "author": "insanumingenium",
       "priority": 0
     },
     {
       "fullPath": "presets/2025.12/other/insanumingenium_small_angle.txt",
-      "hash": "39716be1830e34917474b6f0d66e4722e514ed758cd9485c90dee1d576ad1ddf",
+      "hash": "d6f96d56bdcd895c44074aca14073e73b7b1ea04a3bb8e5d599d56a99f68eced",
       "title": "insanumingenium Small Angle",
       "firmware_version": [
         "2025.12"
@@ -299,7 +372,8 @@
       "category": "OTHER",
       "status": "COMMUNITY",
       "keywords": [
-        "beeper"
+        "small angle",
+        "angle"
       ],
       "author": "insanumingenium",
       "priority": 0
@@ -354,7 +428,7 @@
     },
     {
       "fullPath": "presets/2025.12/vtx/insanumingenium_dji.txt",
-      "hash": "bc9c560764fa9ef95d6d140be00416d8879298315abdc05e6f3e311e5f1e0005",
+      "hash": "9c8f9074b48dd6ba2a84080daa6b27d7048307b3eec943c4aa6e62e39fc16ae7",
       "title": "insanumingenium DJI VTX Config",
       "firmware_version": [
         "2025.12"

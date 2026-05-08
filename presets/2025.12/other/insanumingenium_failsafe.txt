@@ -1,0 +1,36 @@
+#$ TITLE: insanumingenium Betaflight Failsafe Config
+#$ FIRMWARE_VERSION: 2025.12
+#$ CATEGORY: OTHER
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: failsafe, fail, safe
+#$ AUTHOR: insanumingenium
+#$ DESCRIPTION: insanumingenium standard failsafe config
+
+# rxfail
+rxfail 0 s 1500
+rxfail 1 s 1500
+rxfail 2 s 1500
+rxfail 3 s 875
+rxfail 4 s 2100
+rxfail 5 s 900
+rxfail 6 h
+rxfail 7 h
+rxfail 8 h
+rxfail 9 h
+rxfail 10 h
+rxfail 11 h
+rxfail 12 h
+rxfail 13 h
+rxfail 14 h
+rxfail 15 h
+rxfail 16 h
+rxfail 17 h
+
+set failsafe_delay = 15
+set failsafe_landing_time = 60
+set failsafe_throttle = 1000
+set failsafe_switch_mode = STAGE1
+set failsafe_throttle_low_delay = 100
+set failsafe_procedure = DROP
+set failsafe_recovery_delay = 5
+set failsafe_stick_threshold = 30

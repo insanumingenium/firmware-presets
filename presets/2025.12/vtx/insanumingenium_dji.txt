@@ -6,3 +6,4 @@
 #$ AUTHOR: insanumingenium
 #$ DESCRIPTION: insanumingenium all configs for an DJI quad
 
+#$ INCLUDE: presets/2025.12/osd/insanumingenium_dji_osd.txt
