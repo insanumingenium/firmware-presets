@@ -176,6 +176,18 @@
   },
   "presets": [
     {
+      "fullPath": "presets/2025.12/bnf/insanumingenium_AIR65.txt",
+      "hash": "65aad02720349414c6a3b740c577fd40a7c38832fe7858f911b949d0aed913c6",
+      "title": "insanumingenium BetaFPV Air65 BNF Config",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "author": "insanumingenium",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/2025.12/bnf/insanumingenium_AOS5.txt",
       "hash": "fe293717057731f861f339008656713ed1b98843d00eb2da9e7f6a44adfc7591",
       "title": "insanumingenium AOS5 BNF Config",
@@ -213,7 +225,7 @@
     },
     {
       "fullPath": "presets/2025.12/bnf/insanumingenium_MOB6.txt",
-      "hash": "3c52e2289848c5378d1fe46dd12a758fa9609897fb40bcac946220d942da8870",
+      "hash": "f29d2c8da153f61a6a032ac33e8840d6f1e6526a1d44b7789597906fad59bd2a",
       "title": "insanumingenium Mobula 6 BNF Config",
       "firmware_version": [
         "2025.12"
