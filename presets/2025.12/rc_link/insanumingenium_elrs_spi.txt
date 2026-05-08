@@ -1,0 +1,11 @@
+#$ TITLE: insanumingenium ELRS SPI Config
+#$ FIRMWARE_VERSION: 2025.12
+#$ CATEGORY: RC_LINK
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: elrs, spi, rc
+#$ AUTHOR: insanumingenium
+#$ DESCRIPTION: insanumingenium ELRS SPI Config
+
+set expresslrs_uid = 5,134,139,7,110,231
+set expresslrs_domain = ISM2400
+set expresslrs_model_id = 255
