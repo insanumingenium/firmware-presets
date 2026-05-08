@@ -3,7 +3,7 @@
 #$ CATEGORY: OTHER
 #$ STATUS: COMMUNITY
 #$ AUTHOR: insanumingenium
-#$ DESCRIPTION: insanumingenium full config
+#$ DESCRIPTION: insanumingenium full config testing
 
 #$ OPTION_GROUP BEGIN: (EXCLUSIVE) VTX
   #$ OPTION BEGIN (UNCHECKED): Analog
