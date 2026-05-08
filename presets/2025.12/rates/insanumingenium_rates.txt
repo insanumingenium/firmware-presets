@@ -9,7 +9,7 @@
 rateprofile 0
 
 # rateprofile 0
-set rateprofile_name = insanumingenium
+set rateprofile_name = insanum
 set thr_mid = 50
 set thr_expo = 0
 set thr_hover = 50
