@@ -4,7 +4,7 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: analog vtx channels
 #$ AUTHOR: insanumingenium
-#$ DESCRIPTION: insanumingenium analog VTX sysle through the channels using aux4
+#$ DESCRIPTION: insanumingenium analog VTX cycle through the channels using aux4
 
 # channel changing
 vtx 0 4 0 1 0 900 1050
