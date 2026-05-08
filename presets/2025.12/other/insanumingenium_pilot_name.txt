@@ -1,0 +1,9 @@
+#$ TITLE: insanumingenium Pilot Name Config
+#$ FIRMWARE_VERSION: 2025.12
+#$ CATEGORY: OTHER
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: beeper
+#$ AUTHOR: insanumingenium
+#$ DESCRIPTION: insanumingenium standard pilot name config
+
+set pilot_name = insanumingenium
