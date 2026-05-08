@@ -2,7 +2,7 @@
 #$ FIRMWARE_VERSION: 2025.12
 #$ CATEGORY: OSD
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: analog osd
+#$ KEYWORDS: analog, osd
 #$ AUTHOR: insanumingenium
 #$ DESCRIPTION: insanumingenium standard analog OSD
 

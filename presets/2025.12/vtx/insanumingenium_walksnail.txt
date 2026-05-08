@@ -1,0 +1,8 @@
+#$ TITLE: insanumingenium Walksnail VTX Config
+#$ FIRMWARE_VERSION: 2025.12
+#$ CATEGORY: VTX
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: walksnail, vtx
+#$ AUTHOR: insanumingenium
+#$ DESCRIPTION: insanumingenium all configs for an walksnail quad
+

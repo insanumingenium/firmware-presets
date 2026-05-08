@@ -1,0 +1,21 @@
+#$ TITLE: insanumingenium Overall Config
+#$ FIRMWARE_VERSION: 2025.12
+#$ CATEGORY: OTHER
+#$ STATUS: COMMUNITY
+#$ AUTHOR: insanumingenium
+#$ DESCRIPTION: insanumingenium full config
+
+#$ OPTION_GROUP BEGIN: (EXCLUSIVE) VTX
+  #$ OPTION BEGIN (UNCHECKED): Analog
+    #$ INCLUDE: presets/2025.12/vtx/insanumingenium_analog.txt
+  #$ OPTION END
+  #$ OPTION BEGIN (UNCHECKED): DJI
+    #$ INCLUDE: presets/2025.12/vtx/insanumingenium_dji.txt
+  #$ OPTION END
+  #$ OPTION BEGIN (UNCHECKED): Walksnail
+    #$ INCLUDE: presets/2025.12/vtx/insanumingenium_walksnail.txt
+  #$ OPTION END
+#$ OPTION_GROUP END
+
+#$ INCLUDE: presets/2025.12/other/insanumingenium_modes.txt
+#$ INCLUDE: presets/2025.12/rates/insanumingenium_rates.txt

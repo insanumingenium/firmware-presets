@@ -146,16 +146,21 @@
       "insanumingenium"
     ],
     "keywords": [
-      "analog osd",
-      "analog vtx channels",
-      "modes aux",
-      "rates"
+      "analog",
+      "aux",
+      "channels",
+      "dji",
+      "modes",
+      "osd",
+      "rates",
+      "vtx",
+      "walksnail"
     ]
   },
   "presets": [
     {
       "fullPath": "presets/2025.12/osd/insanumingenium_analog_osd.txt",
-      "hash": "b1a85e73b4262cc315c654726563ee97bdbbfee79570d8c0f5fd57a086c3ba1b",
+      "hash": "3b0f853e0e951fddf86dee6f0943cc22ce57775c90428a8de7a0b22aff120046",
       "title": "insanumingenium Analog OSD",
       "firmware_version": [
         "2025.12"
@@ -163,14 +168,15 @@
       "category": "OSD",
       "status": "COMMUNITY",
       "keywords": [
-        "analog osd"
+        "analog",
+        "osd"
       ],
       "author": "insanumingenium",
       "priority": 0
     },
     {
       "fullPath": "presets/2025.12/other/insanumingenium_modes.txt",
-      "hash": "9e99494bf4dae08e1373cddf63870677b5b22b6f209412fdb94b96e39d97b5bb",
+      "hash": "7030c49c04f52436b2f31dabb6a534c574b23a7a464ac596a288d58fcac27081",
       "title": "insanumingenium Modes Config",
       "firmware_version": [
         "2025.12"
@@ -178,13 +184,26 @@
       "category": "OTHER",
       "status": "COMMUNITY",
       "keywords": [
-        "modes aux"
+        "modes",
+        "aux"
       ],
       "author": "insanumingenium",
       "priority": 0
     },
     {
-      "fullPath": "presets/2025.12/rates/insanumingeinum_rates.txt",
+      "fullPath": "presets/2025.12/other/insanumingenium_overall.txt",
+      "hash": "3556d17e0ec1b5790f28009f01f3add4810c6bf0e73aa02fa41fe0622ef28287",
+      "title": "insanumingenium Overall Config",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "author": "insanumingenium",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/rates/insanumingenium_rates.txt",
       "hash": "e244d59bfcedf5a025b0779b8af697323d6339848cc18b1be8a2b1fab333334c",
       "title": "insanumingenium Rates",
       "firmware_version": [
@@ -200,7 +219,7 @@
     },
     {
       "fullPath": "presets/2025.12/vtx/insanumingenium_analog.txt",
-      "hash": "cf5cf800e0ca62fcbb6e9c986597d97a66efb5971d85ab4ecf9f74e82ae66947",
+      "hash": "9378412fbefe5538e7dc3fcb7532091d8d1398538b5d58694a982113bb362e8a",
       "title": "insanumingenium Analog VTX Control",
       "firmware_version": [
         "2025.12"
@@ -208,7 +227,57 @@
       "category": "VTX",
       "status": "COMMUNITY",
       "keywords": [
-        "analog vtx channels"
+        "analog",
+        "vtx"
+      ],
+      "author": "insanumingenium",
+      "priority": 1000000
+    },
+    {
+      "fullPath": "presets/2025.12/vtx/insanumingenium_analog_control.txt",
+      "hash": "62347c898a716fab420e60c0ff1c2b3bd78714800502596dd790c0fdd64dd12e",
+      "title": "insanumingenium Analog VTX Control",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "analog",
+        "vtx",
+        "channels"
+      ],
+      "author": "insanumingenium",
+      "priority": 1000000
+    },
+    {
+      "fullPath": "presets/2025.12/vtx/insanumingenium_dji.txt",
+      "hash": "bc9c560764fa9ef95d6d140be00416d8879298315abdc05e6f3e311e5f1e0005",
+      "title": "insanumingenium DJI VTX Config",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "dji",
+        "vtx"
+      ],
+      "author": "insanumingenium",
+      "priority": 1000000
+    },
+    {
+      "fullPath": "presets/2025.12/vtx/insanumingenium_walksnail.txt",
+      "hash": "df588c14bf4ff77f115bd2a8ba4b20f50edb57de915491aa0fe421c6f8ddd79e",
+      "title": "insanumingenium Walksnail VTX Config",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "walksnail",
+        "vtx"
       ],
       "author": "insanumingenium",
       "priority": 1000000
