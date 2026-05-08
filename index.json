@@ -212,6 +212,18 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/2025.12/bnf/insanumingenium_MOB6.txt",
+      "hash": "3c52e2289848c5378d1fe46dd12a758fa9609897fb40bcac946220d942da8870",
+      "title": "insanumingenium Mobula 6 BNF Config",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "author": "insanumingenium",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/2025.12/bnf/insanumingenium_MOB7.txt",
       "hash": "2195560f1fce2f47dd74e1f37e181515eac8c982406320859be9fa6031ff803a",
       "title": "insanumingenium MOB7 BNF Config",
