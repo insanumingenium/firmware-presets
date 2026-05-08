@@ -1,8 +1,8 @@
 #$ TITLE: insanumingenium Modes Config
 #$ FIRMWARE_VERSION: 2025.12
-#$ CATEGORY: VTX
+#$ CATEGORY: OTHER
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: modex aux
+#$ KEYWORDS: modes aux
 #$ AUTHOR: insanumingenium
 #$ DESCRIPTION: insanumingenium standard modes config
 
