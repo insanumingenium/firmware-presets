@@ -2,7 +2,7 @@
 #$ FIRMWARE_VERSION: 2025.12
 #$ CATEGORY: OTHER
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: beeper
+#$ KEYWORDS: small angle, angle
 #$ AUTHOR: insanumingenium
 #$ DESCRIPTION: insanumingenium small angle config
 

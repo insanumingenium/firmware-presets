@@ -29,6 +29,7 @@ feature -AIRMODE
 feature -RX_SPI
 feature -ESC_SENSOR
 feature -ANTI_GRAVITY
+feature INFLIGHT_ACC_CAL
 feature RX_SERIAL
 feature TELEMETRY
 feature LED_STRIP
