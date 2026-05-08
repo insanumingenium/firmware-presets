@@ -174,7 +174,7 @@
   "presets": [
     {
       "fullPath": "presets/2025.12/bnf/insanumingenium_AOS5.txt",
-      "hash": "1df2dac7a19ba3338ae39c8f3a24c74cf011aceeb3b7ad34280066166cf5d0dc",
+      "hash": "cbd1a3f9473e6a5278e0561a25fc9d52aef9124469690ccb0f7aafce5c0332ee",
       "title": "insanumingenium AOS5 BNF Config",
       "firmware_version": [
         "2025.12"
@@ -238,7 +238,7 @@
     },
     {
       "fullPath": "presets/2025.12/osd/insanumingenium_dji_osd.txt",
-      "hash": "bd098b8fa76bd0bf0efc825805a54ccb7fc629031862efbebb93302f59a23ce3",
+      "hash": "086502a6e5ce077f5e935078b756bf91a3a17da0d04566e8cba6d63849d1283c",
       "title": "insanumingenium DJI OSD",
       "firmware_version": [
         "2025.12"
