@@ -31,8 +31,6 @@ resource SERIAL_TX 5 NONE
 resource SERIAL_TX 6 C06
 resource SERIAL_TX 7 NONE
 resource SERIAL_TX 8 NONE
-resource SERIAL_TX 9 NONE
-resource SERIAL_TX 10 NONE
 resource SERIAL_RX 1 A10
 resource SERIAL_RX 2 D06
 resource SERIAL_RX 3 B11
@@ -41,12 +39,6 @@ resource SERIAL_RX 5 NONE
 resource SERIAL_RX 6 C07
 resource SERIAL_RX 7 E07
 resource SERIAL_RX 8 NONE
-resource SERIAL_RX 9 NONE
-resource SERIAL_RX 10 NONE
-resource SOFTSERIAL_TX 1 NONE
-resource SOFTSERIAL_TX 2 NONE
-resource SOFTSERIAL_RX 1 NONE
-resource SOFTSERIAL_RX 2 NONE
 resource I2C_SCL 1 B06
 resource I2C_SCL 2 NONE
 resource I2C_SCL 3 NONE
@@ -86,9 +78,7 @@ resource PINIO 3 NONE
 resource PINIO 4 NONE
 resource USB_MSC_PIN 1 NONE
 resource GYRO_EXTI 1 E01
-resource GYRO_EXTI 2 NONE
 resource GYRO_CS 1 E04
-resource GYRO_CS 2 NONE
 resource USB_DETECT 1 A08
 resource PULLUP 1 NONE
 resource PULLUP 2 NONE
@@ -148,9 +138,6 @@ dma UART_TX 5 NONE
 dma UART_TX 6 NONE
 dma UART_TX 7 NONE
 dma UART_TX 8 NONE
-dma UART_TX 9 NONE
-dma UART_TX 10 NONE
-dma UART_TX 11 NONE
 dma UART_RX 1 NONE
 dma UART_RX 2 NONE
 dma UART_RX 3 NONE
@@ -159,9 +146,6 @@ dma UART_RX 5 NONE
 dma UART_RX 6 NONE
 dma UART_RX 7 NONE
 dma UART_RX 8 NONE
-dma UART_RX 9 NONE
-dma UART_RX 10 NONE
-dma UART_RX 11 NONE
 dma pin B00 0
 # pin B00: DMA1 Stream 7 Channel 5
 dma pin B01 0
@@ -209,7 +193,6 @@ set gyro_offset_yaw = 0
 set gyro_overflow_detect = ALL
 set yaw_spin_recovery = AUTO
 set yaw_spin_threshold = 1950
-set gyro_to_use = FIRST
 set dyn_notch_count = 1
 set dyn_notch_q = 500
 set dyn_notch_min_hz = 150
@@ -242,7 +225,6 @@ set rc_smoothing = ON
 set rc_smoothing_auto_factor = 30
 set rc_smoothing_auto_factor_throttle = 30
 set rc_smoothing_setpoint_cutoff = 0
-set rc_smoothing_feedforward_cutoff = 0
 set rc_smoothing_throttle_cutoff = 0
 set rc_smoothing_debug_axis = ROLL
 set fpv_mix_degrees = 0
@@ -261,11 +243,9 @@ set adc_vrefint_calibration = 0
 set adc_tempsensor_calibration30 = 0
 set adc_tempsensor_calibration110 = 0
 
-set min_throttle = 1070
 set max_throttle = 2000
 set min_command = 1000
-set motor_kv = 1960
-set dshot_idle_value = 550
+set motor_kv = 1855
 set dshot_burst = OFF
 set dshot_bidir = ON
 set dshot_edt = OFF
@@ -314,18 +294,6 @@ set gyro_1_bustype = SPI
 set gyro_1_spibus = 4
 set gyro_1_i2cBus = 0
 set gyro_1_i2c_address = 0
-set gyro_1_sensor_align = CW90
-set gyro_1_align_roll = 0
-set gyro_1_align_pitch = 0
-set gyro_1_align_yaw = 900
-set gyro_2_bustype = SPI
-set gyro_2_spibus = 4
-set gyro_2_i2cBus = 0
-set gyro_2_i2c_address = 0
-set gyro_2_sensor_align = CW0
-set gyro_2_align_roll = 0
-set gyro_2_align_pitch = 0
-set gyro_2_align_yaw = 0
 set i2c1_pullup = OFF
 set i2c1_clockspeed_khz = 800
 set i2c2_pullup = OFF
@@ -381,7 +349,6 @@ set iterm_relax = RP
 set iterm_relax_type = SETPOINT
 set iterm_relax_cutoff = 15
 set iterm_windup = 100
-set iterm_limit = 400
 set pidsum_limit = 500
 set pidsum_limit_yaw = 400
 set yaw_lowpass_hz = 0
@@ -415,9 +382,6 @@ set abs_control_error_limit = 20
 set abs_control_cutoff = 11
 set use_integrated_yaw = OFF
 set integrated_yaw_relax = 200
-set d_min_roll = 23
-set d_min_pitch = 25
-set d_min_yaw = 0
 set d_max_gain = 37
 set d_max_advance = 20
 set motor_output_limit = 100
@@ -440,14 +404,12 @@ set dyn_idle_p_gain = 50
 set dyn_idle_i_gain = 50
 set dyn_idle_d_gain = 50
 set dyn_idle_max_increase = 150
-set dyn_idle_start_increase = 50
 set level_race_mode = OFF
 set simplified_pids_mode = RPY
 set simplified_master_multiplier = 100
 set simplified_i_gain = 100
 set simplified_d_gain = 100
 set simplified_pi_gain = 100
-set simplified_dmax_gain = 100
 set simplified_feedforward_gain = 100
 set simplified_pitch_d_gain = 100
 set simplified_pitch_pi_gain = 100
