@@ -137,6 +137,7 @@
       "2025.12"
     ],
     "category": [
+      "BNF",
       "OSD",
       "OTHER",
       "RATES",
@@ -148,8 +149,11 @@
     "keywords": [
       "analog",
       "aux",
+      "beeper",
+      "betaflight",
       "channels",
       "dji",
+      "feature",
       "modes",
       "osd",
       "rates",
@@ -158,6 +162,42 @@
     ]
   },
   "presets": [
+    {
+      "fullPath": "presets/2025.12/bnf/insanumingenium_Floss.txt",
+      "hash": "fd82171104a53d3362d488581dd34d02bbcf4cc31dba71126679dccb21de9015",
+      "title": "insanumingenium Hyperlite FLOSS BNF Config",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "author": "insanumingenium",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/insanumingenium_HMB_RS_V2.txt",
+      "hash": "19d450c39fe63f8a35f1b59f41d774632850ff5bc81ecf60a2e854510aa4a784",
+      "title": "insanumingenium Hummingbird RS v2 BNF Config",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "author": "insanumingenium",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/insanumingenium_generic.txt",
+      "hash": "93c7c56acaa49b345dc8de3da6c4c45217060d71914191f35d0c1a14fa056d77",
+      "title": "insanumingenium Generic Config",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "author": "insanumingenium",
+      "priority": 0
+    },
     {
       "fullPath": "presets/2025.12/osd/insanumingenium_analog_osd.txt",
       "hash": "3b0f853e0e951fddf86dee6f0943cc22ce57775c90428a8de7a0b22aff120046",
@@ -172,6 +212,50 @@
         "osd"
       ],
       "author": "insanumingenium",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/other/insanumingenium_beeper.txt",
+      "hash": "e2a16345f14b62657a2c72d09634b30ad487cfdcf291bafed0f29932d1219ad0",
+      "title": "insanumingenium Beeper Config",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "beeper"
+      ],
+      "author": "insanumingenium",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/other/insanumingenium_features.txt",
+      "hash": "a21bea8e73ff1d853b9b404f3edaf2b2725426dbcdc8e8fc31fff1e53114c51c",
+      "title": "insanumingenium Betaflight Features Config",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "feature",
+        "betaflight"
+      ],
+      "author": "insanumingenium",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/other/insanumingenium_generic.txt",
+      "hash": "162143f0884ad23beeec69e635173d04da7bae891f2381a641850e1dcb0b8599",
+      "title": "insanumingenium Generic Config",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "author": "insanumingenium",
+      "hidden": true,
       "priority": 0
     },
     {
@@ -191,14 +275,32 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/2025.12/other/insanumingenium_overall.txt",
-      "hash": "3556d17e0ec1b5790f28009f01f3add4810c6bf0e73aa02fa41fe0622ef28287",
-      "title": "insanumingenium Overall Config",
+      "fullPath": "presets/2025.12/other/insanumingenium_pilot_name.txt",
+      "hash": "bb954e59194d52fbafe01c1e03fcddab93b55d959c5daf460bbef05ac137cff3",
+      "title": "insanumingenium Pilot Name Config",
       "firmware_version": [
         "2025.12"
       ],
       "category": "OTHER",
       "status": "COMMUNITY",
+      "keywords": [
+        "beeper"
+      ],
+      "author": "insanumingenium",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/other/insanumingenium_small_angle.txt",
+      "hash": "39716be1830e34917474b6f0d66e4722e514ed758cd9485c90dee1d576ad1ddf",
+      "title": "insanumingenium Small Angle",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "beeper"
+      ],
       "author": "insanumingenium",
       "priority": 0
     },

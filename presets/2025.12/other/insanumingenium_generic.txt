@@ -1,0 +1,14 @@
+#$ TITLE: insanumingenium Generic Config
+#$ FIRMWARE_VERSION: 2025.12
+#$ CATEGORY: OTHER
+#$ STATUS: COMMUNITY
+#$ AUTHOR: insanumingenium
+#$ DESCRIPTION: insanumingenium generic config with all the universal options in one preset that can be called from BNF presets
+#$ HIDDEN: true
+
+#$ INCLUDE: presets/2025.12/other/insanumingenium_modes.txt
+#$ INCLUDE: presets/2025.12/rates/insanumingenium_rates.txt
+#$ INCLUDE: presets/2025.12/other/insanumingenium_beeper.txt
+#$ INCLUDE: presets/2025.12/other/insanumingenium_features.txt
+#$ INCLUDE: presets/2025.12/other/insanumingenium_pilot_name.txt
+#$ INCLUDE: presets/2025.12/other/insanumingenium_small_angle.txt
